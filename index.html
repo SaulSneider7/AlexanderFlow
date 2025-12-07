@@ -4,8 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexander Flow - Portfolio</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <title>Alexander Flow - DJ & Diseñador Gráfico</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portafolio oficial de Alexander Flow. DJ Profesional y Diseñador Gráfico en Lima, Perú. Especialista en música urbana, electrónica, identidad visual y branding.">
+    <meta name="keywords"
+        content="DJ, Alexander Flow, Diseñador Gráfico, Lima, Perú, Música Urbana, Reggaeton, Branding, Eventos, Mezclas, Sets">
+    <meta name="author" content="Saul Sneider">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexanderflow.com/">
+    <meta property="og:title" content="Alexander Flow - DJ & Diseñador Gráfico">
+    <meta property="og:description"
+        content="Portafolio oficial de Alexander Flow. DJ Profesional y Diseñador Gráfico en Lima, Perú.">
+    <meta property="og:image" content="https://picsum.photos/seed/concert/1200/630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Alexander Flow - DJ & Diseñador Gráfico">
+    <meta property="twitter:description"
+        content="Portafolio oficial de Alexander Flow. DJ Profesional y Diseñador Gráfico en Lima, Perú.">
+    <meta property="twitter:image" content="https://picsum.photos/seed/concert/1200/630">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,7 +86,7 @@
 <body class="bg-dark-bg text-gray-200 font-body selection:bg-neon-purple selection:text-white">
 
     <!-- Navbar -->
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent py-6">
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-black py-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center">
                 <div class="flex items-center">
@@ -122,8 +144,8 @@
     <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
         <!-- Background Image/Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="artista.png" alt="DJ Background"
-                class="w-full h-full object-cover md:object-contain object-top opacity-100 transition-all duration-500" />
+            <img src="artista.png" alt="Alexander Flow"
+                class="w-full h-full object-cover md:object-contain opacity-100 transition-all duration-500" />
             <!-- Dark Overlay with Side Fades (Desktop) / Lighter on Mobile -->
             <div class="absolute inset-0 bg-gradient-to-r from-black via-black/10 to-black md:via-black/50"></div>
             <!-- Bottom Fade -->
@@ -131,9 +153,6 @@
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
-            <h2 class="text-neon-cyan font-display font-bold text-xl md:text-2xl mb-4 tracking-[0.5em] animate-pulse">
-                MULTIDISCIPLINARY ARTIST
-            </h2>
             <h1 class="text-5xl md:text-8xl font-black text-white mb-6 tracking-tighter neon-text">
                 ALEXANDER <br />
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-cyan">
@@ -141,7 +160,7 @@
                 </span>
             </h1>
             <p class="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light drop-shadow-md">
-                DJ Profesional • Diseñador Gráfico • Administrador Industrial
+                DJ Profesional • Diseñador Gráfico
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -166,11 +185,11 @@
                 </h2>
                 <div class="h-1 w-24 bg-neon-purple mx-auto rounded-full"></div>
                 <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
-                    Una combinación única de creatividad artística y disciplina profesional.
+                    Fusión de ritmo y estética visual para elevar tu marca o evento.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 <!-- Service 1 -->
                 <div
                     class="glass-panel p-8 rounded-2xl hover:border-neon-cyan/50 transition-all duration-300 group relative overflow-hidden">
@@ -214,29 +233,6 @@
                         <div class="mt-6 pt-6 border-t border-white/5">
                             <span
                                 class="text-xs font-bold tracking-widest text-neon-purple uppercase">Creatividad</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 3 -->
-                <div
-                    class="glass-panel p-8 rounded-2xl hover:border-neon-cyan/50 transition-all duration-300 group relative overflow-hidden">
-                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-                        <i data-lucide="briefcase" class="w-24 h-24 text-white"></i>
-                    </div>
-                    <div class="relative z-10">
-                        <div
-                            class="w-16 h-16 rounded-full bg-gradient-to-br from-gray-800 to-black flex items-center justify-center mb-6 border border-white/10 group-hover:border-neon-purple transition-colors">
-                            <i data-lucide="briefcase"
-                                class="text-neon-cyan group-hover:text-neon-purple transition-colors w-8 h-8"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-display">Administración</h3>
-                        <p class="text-gray-400 leading-relaxed">
-                            Optimización de procesos industriales y gestión administrativa con enfoque analítico.
-                        </p>
-                        <div class="mt-6 pt-6 border-t border-white/5">
-                            <span
-                                class="text-xs font-bold tracking-widest text-neon-purple uppercase">Profesional</span>
                         </div>
                     </div>
                 </div>
@@ -441,7 +437,7 @@
                 </a>
 
                 <!-- Email Card -->
-                <a href="mailto:alexanderflowdjperu@gmail.com"
+                <a href="mailto:info@alexanderflow.com"
                     class="group relative p-8 rounded-2xl bg-gradient-to-br from-gray-900 to-black border border-white/10 overflow-hidden hover:border-neon-cyan/50 transition-all duration-300 hover:-translate-y-2">
                     <div
                         class="absolute inset-0 bg-gradient-to-br from-neon-cyan/20 to-blue-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -468,15 +464,15 @@
     <!-- Footer -->
     <footer class="bg-black border-t border-white/10 pt-20 pb-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
                 <!-- Brand -->
                 <div class="space-y-4">
-                    <h3 class="font-display font-bold text-2xl text-white">
-                        ALEXANDER <span class="text-neon-purple">FLOW</span>
-                    </h3>
+                    <div class="w-32">
+                        <img src="Logo_Blanco.png" alt="" class="w-full h-full object-contain">
+                    </div>
                     <p class="text-gray-400 text-sm leading-relaxed">
-                        Transformando ideas en experiencias visuales y sonoras. Soluciones integrales en música, diseño
-                        y administración.
+                        Transformando ideas en experiencias visuales y sonoras. Soluciones integrales en música y diseño
+                        gráfico.
                     </p>
                 </div>
 
@@ -486,7 +482,7 @@
                     <ul class="space-y-3">
                         <li class="flex items-center gap-3 text-gray-400 hover:text-neon-cyan transition-colors">
                             <i data-lucide="mail" class="w-4 h-4"></i>
-                            <a href="mailto:alexanderflowdjperu@gmail.com">alexanderflowdjperu@gmail.com</a>
+                            <a href="mailto:info@alexanderflow.com">info@alexanderflow.com</a>
                         </li>
                         <li class="flex items-center gap-3 text-gray-400 hover:text-red-500 transition-colors">
                             <i data-lucide="youtube" class="w-4 h-4"></i>
@@ -494,7 +490,7 @@
                         </li>
                         <li class="flex items-center gap-3 text-gray-400">
                             <i data-lucide="map-pin" class="w-4 h-4"></i>
-                            <span>Lima, Per&uacute;</span>
+                            <span>Lima, Perú</span>
                         </li>
                     </ul>
                 </div>
@@ -513,21 +509,13 @@
                         </a>
                     </div>
                 </div>
-
-                <!-- Admin Tag -->
-                <div class="space-y-4">
-                    <h4 class="text-white font-bold uppercase tracking-wider">Admin</h4>
-                    <p class="text-gray-400 text-sm">
-                        Servicios de consultoría administrativa y optimización de procesos industriales disponibles bajo
-                        cita previa.
-                    </p>
-                </div>
             </div>
 
             <div
                 class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
                 <p>&copy; 2024 Alexander Flow. Todos los derechos reservados.</p>
-                <p class="mt-2 md:mt-0">Diseñado por <a href="https://saulsneider7.github.io/snei_web/" class="font-bold hover:text-neon-cyan transition-colors">Saul Sneider</a></p>
+                <p class="mt-2 md:mt-0">Diseñado por <a href="https://saulsneider7.github.io/snei_web/" target="_blank"
+                        class="text-neon-cyan font-bold transition-colors hover:text-neon-purple animate-pulse">Saul Sneider</a></p>
             </div>
         </div>
     </footer>
