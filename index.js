@@ -15,11 +15,11 @@ if (window.lucide) {
 // === Logic: Navbar Scroll ===
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
-        navbar?.classList.add('bg-dark-bg/90', 'backdrop-blur-md', 'py-4', 'shadow-lg', 'border-b', 'border-white/10');
-        navbar?.classList.remove('bg-black', 'py-6');
+        navbar?.classList.add('bg-transparent', 'backdrop-blur-md', 'py-4', 'shadow-lg', 'border-b', 'border-white/10');
+        navbar?.classList.remove('bg-transparent', 'py-6');
     } else {
-        navbar?.classList.remove('bg-dark-bg/90', 'backdrop-blur-md', 'py-4', 'shadow-lg', 'border-b', 'border-white/10');
-        navbar?.classList.add('bg-black', 'py-6');
+        navbar?.classList.remove('bg-transparent', 'backdrop-blur-md', 'py-4', 'shadow-lg', 'border-b', 'border-white/10');
+        navbar?.classList.add('bg-transparent', 'py-6');
     }
 });
 
